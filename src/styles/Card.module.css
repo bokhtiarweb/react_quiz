@@ -1,0 +1,30 @@
+.card {
+    max-width: 300px;
+    height: fit-content;
+    padding: 10px;
+    background-color: #ebf1f4f7;
+}
+.card > p {
+    color: #2e2f3d;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+.card .qmeta {
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+}
+.card .qmeta > p {
+    font-size: 13px;
+    color: #2e2f3d;
+    font-weight: 500;
+}
+.card .qmeta > p.p_right {
+    position: absolute;
+    right: 2px;
+}

@@ -1,0 +1,71 @@
+/* Header nav start */
+.nav {
+    height: 60px;
+    border-bottom: 1px solid #cfcfcf;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #cfcfcf;
+    z-index: 333;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto auto;
+}
+.menu li {
+    list-style: none;
+}
+.left_item {
+    margin-left: 25px;
+}
+.left_item a {
+    display: inline-block;
+}
+.left_item a {
+    margin-top: 8px;
+}
+.left_item a > img {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.left_item a > h3 {
+    float: right;
+    color: #2e2f3d;
+    margin: 10px auto auto 10px;
+}
+
+.right_itm {
+    margin-right: 25px;
+    position: relative;
+}
+.right_itm .account {
+    width: 130px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+.right_itm .account span.account_title {
+    color: #8531a9;
+    margin-top: 2px;
+}
+.account .user {
+    border: 1px solid oldlace;
+}
+.account .mtop {
+    margin-top: -1px;
+}
+
+.right_itm .account a {
+    color: #2e2f3d;
+    text-decoration: none;
+}
+.lst {
+    color: saddlebrown !important;
+}
+
+/* Header nav menu end */
